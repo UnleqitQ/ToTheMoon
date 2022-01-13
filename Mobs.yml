@@ -1,0 +1,26 @@
+ToTheMoon:
+  Monsters:
+    MobsGravity: true
+    CustomMobs: true
+    Skeleton:
+      Helmet: GLASS
+      Chestplate: CHAINMAIL_CHESTPLATE
+      Leggings: CHAINMAIL_LEGGINGS
+      Boots: CHAINMAIL_BOOTS
+      ItemInHand: BOW
+      Strenght: true
+      StrenghtLevel: 1
+      ItemInHandEnchants:
+      - DURABILITY:3
+      MaxHealth: 20
+    Zombie:
+      Helmet: AlienSkull
+      Chestplate: CHAINMAIL_CHESTPLATE
+      Leggings: CHAINMAIL_LEGGINGS
+      Boots: CHAINMAIL_BOOTS
+      ItemInHand: DIAMOND_SWORD
+      Strenght: true
+      StrenghtLevel: 1
+      ItemInHandEnchants:
+      - DURABILITY:3
+      MaxHealth: 20

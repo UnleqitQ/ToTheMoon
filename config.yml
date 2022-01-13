@@ -1,0 +1,87 @@
+ToTheMoon:
+  GiveHelmetOnWorldJoin: true
+  GiveHelmetToTheMobs: true
+  RemoveGravityOnExitMoonWorld: true
+  WorldGeneration:
+    CoalSpawnPercentage: 60.0
+    IronSpawnPercentage: 40.0
+    GoldSpawnPercentage: 20.0
+    RedstoneSpawnPercentage: 10.0
+    LapisSpawnPercentage: 7.0
+    DiamondSpawnPercentage: 5.0
+    EmeraldSpawnPercentage: 2.0
+    TimeLock: true
+    TimeLockTick: 18000
+    NoRain: true
+  MoonEffects:
+    Gravity: true
+    GravityLevel: 3
+    MiningFatigue: true
+    WaterOnMoon: false
+    EnhancedMobs: true
+    Oxygen:
+      Enable: true
+      OnSecRemove: 0.001
+      NoOxygenMessage:
+        Title: '&cCAUTION'
+        SubTitle: '&eYou''ve finished the oxygen'
+  Items:
+    OxygenBottle:
+      Enable: true
+      Name: '&aOxygen'
+      OxygenGivePercentage: 50
+      Crafting:
+        Object1: POTION
+        Data-Value1: 0
+        Object2: LEVER
+        Data-Value2: 0
+        Object3: POTION
+        Data-Value3: 0
+        Object4: IRON_BARS
+        Data-Value4: 0
+        Object5: BUCKET
+        Data-Value5: 0
+        Object6: IRON_BARS
+        Data-Value6: 0
+        Object7: IRON_BARS
+        Data-Value7: 0
+        Object8: BUCKET
+        Data-Value8: 0
+        Object9: IRON_BARS
+        Data-Value9: 0
+    Rocket:
+      Enable: true
+      Name: '&cRocket'
+      Particles: true
+      Sound: true
+      Crafting:
+        Object1: REDSTONE_BLOCK
+        Data-Value1: 0
+        Object2: GLASS_PANE
+        Data-Value2: 0
+        Object3: REDSTONE_BLOCK
+        Data-Value3: 0
+        Object4: IRON_BLOCK
+        Data-Value4: 0
+        Object5: NETHER_STAR
+        Data-Value5: 0
+        Object6: IRON_BLOCK
+        Data-Value6: 0
+        Object7: PISTON
+        Data-Value7: 0
+        Object8: FLINT_AND_STEEL
+        Data-Value8: 0
+        Object9: PISTON
+        Data-Value9: 0
+      BlockAboveHead: '&7You have a block over your head.'
+      MessageArrivedOnTheMoon: '&7You arrived on the moon.'
+  Commands:
+    NoPermissions: '&cYou don''t have permissions!'
+    Prefix: "&9ToTheMoon\xbb "
+    UseHelp: 'Use /ToTheMoon help. '
+    Oxygen: '&7The remaining oxygen is equal to '
+    FixEssentials: true
+    EssentialsHealFixMessage: '&7You have been healed.'
+    EssentialsHealFixPermission: essentials.heal
+  Worlds:
+  - MoonWorld

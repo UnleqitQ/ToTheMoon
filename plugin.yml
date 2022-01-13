@@ -1,0 +1,15 @@
+main: ToTheMoon.Main
+name: ToTheMoon
+author: zDardeed
+version: 1.1.5
+api-version: 1.17
+website: https://www.youtube.com/channel/UCycsD1bjMj8BJYZn2c-vRmQ/featured
+load: STARTUP
+depend: [WorldEdit, MVdWPlaceholderAPI]
+commands:
+  ToTheMoon:
+    description: Principal command.
+  TTM:
+    description: Principal command.
+  Oxygen:
+    description: Oxygen command.

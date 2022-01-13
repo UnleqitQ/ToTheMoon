@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/quent.DESKTOP-L0VD1RP/Downloads/plugin/spigot-1.17.1.jar" sourcepath="C:/Users/quent.DESKTOP-L0VD1RP/Downloads/decompiled/spigot-1.17.1.jar.src.zip"/>
+	<classpathentry kind="lib" path="C:/Users/quent.DESKTOP-L0VD1RP/Downloads/plugin/test/plugins/MVdWPlaceholderAPI.jar"/>
+	<classpathentry kind="lib" path="C:/Users/quent.DESKTOP-L0VD1RP/Downloads/plugin/test/plugins/LightAPI-fork-3.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/quent.DESKTOP-L0VD1RP/Downloads/plugin/test/plugins/FastAsyncWorldEdit-Bukkit-1.17-418.jar"/>
+	<classpathentry kind="lib" path="C:/Users/quent.DESKTOP-L0VD1RP/Downloads/plugin/test/plugins/CustomBiomeColors-1.0.0.jar" sourcepath="C:/Users/quent.DESKTOP-L0VD1RP/Downloads/decompiled/CustomBiomeColors-1.0.0.jar.src.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
